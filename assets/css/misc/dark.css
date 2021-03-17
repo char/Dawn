@@ -1,8 +1,8 @@
 .theme-dark:root {
     --primary-text-color: #e2e2e2;
     --secondary-text-color: #868686;
-    --white-color: #282c35;
-    --lighter-gray-color: #2f333c;
+    --white-color: #121212;
+    --lighter-gray-color: #171717;
     --light-gray-color: #3b3e46;
     --mid-gray-color: #666;
     --dark-gray-color: #e6e6e6;
@@ -42,10 +42,11 @@
 
 @media (prefers-color-scheme: dark) {
     html:not(.theme-light):root {
+        --brand-color: #0095ff;
         --primary-text-color: #e2e2e2;
         --secondary-text-color: #868686;
-        --white-color: #282c35;
-        --lighter-gray-color: #2f333c;
+        --white-color: #121212;
+        --lighter-gray-color: #171717;
         --light-gray-color: #3b3e46;
         --mid-gray-color: #666;
         --dark-gray-color: #e6e6e6;

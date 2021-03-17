@@ -1,7 +1,7 @@
 :root {
-    --brand-color: #ff572f;
-    --primary-text-color: #333;
-    --secondary-text-color: #999;
+    --brand-color: #0076ca;
+    --primary-text-color: #717171;
+    --secondary-text-color: #3e3e3e;
     --white-color: #fff;
     --lighter-gray-color: #f6f6f6;
     --light-gray-color: #e6e6e6;
@@ -16,8 +16,7 @@
     --twitter-color: #1da1f2;
     --rss-color: #f26522;
     --animation-base: ease-in-out;
-    --font-base: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
-    --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; /* stylelint-disable-line value-keyword-case */
+    --font-base: muli, -apple-system, blinkmacsystemfont, segoe ui, helvetica, arial, sans-serif;
     --navbar-height: 80px;
 }
 
@@ -136,23 +135,12 @@ figcaption a {
 pre {
     overflow-x: scroll;
     padding: 1.6rem 2.2rem;
+    color: var(--white-color);
+    font-size: 1.6rem !important;
     line-height: 1.5;
-    white-space: pre;
-    hyphens: none;
-    background-color: var(--lighter-gray-color);
-    border-radius: 5px;
+    background-color: var(--darker-gray-color);
+    border-radius: 5px !important;
     -webkit-overflow-scrolling: touch;
-}
-
-code {
-    font-family: var(--font-mono);
-    font-size: 14px;
-}
-
-:not(pre) > code {
-    padding: 0.3rem 0.4rem;
-    background-color: var(--lighter-gray-color);
-    border-radius: 3px;
 }
 
 hr {
@@ -189,13 +177,6 @@ table:not(.highlight) {
     border-collapse: collapse;
     font-size: 1.5rem;
     word-break: normal;
-}
-
-table:not(.highlight):not(.table) {
-    display: inline-block;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
 }
 
 table:not(.highlight) thead {
